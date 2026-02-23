@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA0C0DE12C18058B002DB6BF /* BackgroundAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0C0DE22C18058B002DB6BF /* BackgroundAudioPlayer.swift */; };
 		D30F965E2C18058B002DB6BF /* Socks5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30F965D2C18058B002DB6BF /* Socks5App.swift */; };
 		D30F96602C18058B002DB6BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30F965F2C18058B002DB6BF /* ContentView.swift */; };
 		D30F96622C18058E002DB6BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30F96612C18058E002DB6BF /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA0C0DE22C18058B002DB6BF /* BackgroundAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAudioPlayer.swift; sourceTree = "<group>"; };
 		D30F965A2C18058B002DB6BF /* Socks5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Socks5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30F965D2C18058B002DB6BF /* Socks5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socks5App.swift; sourceTree = "<group>"; };
 		D30F965F2C18058B002DB6BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 		D30F965C2C18058B002DB6BF /* Socks5 */ = {
 			isa = PBXGroup;
 			children = (
+				BA0C0DE22C18058B002DB6BF /* BackgroundAudioPlayer.swift */,
 				D30F965D2C18058B002DB6BF /* Socks5App.swift */,
 				D30F965F2C18058B002DB6BF /* ContentView.swift */,
 				D30F96612C18058E002DB6BF /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA0C0DE12C18058B002DB6BF /* BackgroundAudioPlayer.swift in Sources */,
 				D30F96602C18058B002DB6BF /* ContentView.swift in Sources */,
 				D30F965E2C18058B002DB6BF /* Socks5App.swift in Sources */,
 			);
@@ -280,6 +284,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIBackgroundModes = audio;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -308,6 +313,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIBackgroundModes = audio;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
